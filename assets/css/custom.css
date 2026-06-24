@@ -1,0 +1,39 @@
+/* ===== CAROUSEL ===== */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-height: 450px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  display: none;
+  object-fit: cover;
+}
+
+body {
+  border: 5px solid red;
+}
+
+.carousel-image.active {
+  display: block;
+}
+
+/* ===== DESCRIPTION SECTION ===== */
+.home-description {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.home-description h2 {
+  margin-bottom: 1rem;
+}
+
+.home-description p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
