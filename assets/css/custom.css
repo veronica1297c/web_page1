@@ -1,0 +1,35 @@
+/* ===== CAROUSEL ===== */
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  background: #111;
+}
+
+.carousel-image {
+  display: none;
+  width: 100%;
+  height: clamp(220px, 45vw, 450px);
+  object-fit: cover;
+}
+
+.carousel-image.active {
+  display: block;
+}
+
+/* ===== DESCRIPTION SECTION ===== */
+.home-description {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.home-description h2 {
+  margin-bottom: 1rem;
+}
+
+.home-description p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
